@@ -1,0 +1,20 @@
+{
+  "budget": 2,
+  "bad_key_code": "E_BAD_KEY",
+  "bad_task_code": "E_BAD_TASK",
+  "dup_task_code": "E_DUP_TASK",
+  "no_hold_code": "E_NO_HOLD",
+  "no_wait_code": "E_NO_WAIT",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "hold": [], "queue": [], "done": 0, "relays": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "submit", "key": "a", "task": 1 },
+    { "id": 2, "kind": "submit", "key": "b", "task": 2 },
+    { "id": 3, "kind": "submit", "key": "a", "task": 3 },
+    { "id": 4, "kind": "submit", "key": "a", "task": 4 },
+    { "id": 5, "kind": "finish", "key": "a" },
+    { "id": 6, "kind": "finish", "key": "b" },
+    { "id": 7, "kind": "withdraw", "key": "a", "task": 4 },
+    { "id": 8, "kind": "submit", "key": "c", "task": 5 }
+  ]
+}
